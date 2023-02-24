@@ -1,7 +1,9 @@
 // page switch//
-const pages = document.getElementsByTagName('section')
+const pages = document.querySelectorAll('.website')
 
 const pageLinks = document.querySelectorAll('.nav-link')
+console.log(pageLinks)
+console.log(pages)
 
 for (let i = 0; i < pageLinks.length; i++) {
 

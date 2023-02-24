@@ -45,8 +45,7 @@ section {
   color: white;
   text-align: center;
   display: none;
-  /* padding: 20px; */
-  /* width: 75vw; */
+
 }
 
 section:nth-of-type(1) {
@@ -54,6 +53,7 @@ section:nth-of-type(1) {
 }
 
 h1 {
+  text-decoration: underline;
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -65,7 +65,7 @@ h2 {
 
 h4 {
   font-size: 1rem;
-  /* margin-bottom: 5px; */
+
 }
 
 button {
@@ -94,15 +94,27 @@ button {
 	border: #677996;
   background-color: rgb(77, 76, 76, 0.6);
   color: rgba(255, 255, 255, 0.824);
-	height: 350px;
-	width: 550px;
+	height: 200px;
+	width: 300px;
 	border-radius: 6px;
 	margin: 150px auto;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 	padding: 2%;
-	/* line-height: 120%; */
+	line-height: 120%;
 	font-family: 'Georgia';
   backdrop-filter: blur(2px);
+}
+#openModal {
+  background-color: rgb(53, 53, 53);
+  color: rgb(183, 183, 183);
+  border-radius: 20px;
+}
+
+#close {
+  color: rgb(31, 178, 168);
+  font-style: italic;
+  text-decoration: none;
+
 }
 
 /* carousel */
@@ -151,26 +163,12 @@ button {
   color: white;
 }
 
-/* footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-footer a {
+.fa-brands {
   justify-content: center;
   grid-row-end: auto;
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
-
-#email {
-  margin-left: 10px;
-}
-
 
 /* Styles for mobile devices */
 
