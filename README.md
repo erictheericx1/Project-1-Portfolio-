@@ -1,5 +1,7 @@
 # Eric Lopez's Portfolio (Project 1)
 
+![home page](assets/portfolio_screenshot.jpg)
+
 Installation Instructions
 -------------
 
@@ -21,4 +23,3 @@ Wireframe
 ---------
 
 I used [moqups.com](https://moqups.com/) to make my wireframe.  Although it was very helpful, there were some aspects of my website's design that changed.  A lot of the elements are still present however.
-
