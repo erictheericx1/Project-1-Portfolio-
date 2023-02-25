@@ -23,3 +23,8 @@ Wireframe
 ---------
 
 I used [moqups.com](https://moqups.com/) to make my wireframe.  Although it was very helpful, there were some aspects of my website's design that changed.  A lot of the elements are still present however.
+
+[Home (desktop)](wireframe/home_desktop.jpg)
+[Projects (desktop)](wireframe/projects_desktop.jpg)
+[Resume (desktop)](wireframe/resume_desktop.jpg)
+[Mobile view](wireframe/home_mobile.jpg)
