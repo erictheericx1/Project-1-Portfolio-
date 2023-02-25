@@ -2,8 +2,6 @@
 const pages = document.querySelectorAll('.website')
 
 const pageLinks = document.querySelectorAll('.nav-link')
-console.log(pageLinks)
-console.log(pages)
 
 for (let i = 0; i < pageLinks.length; i++) {
 
@@ -26,11 +24,9 @@ const openModal = () => {
   modal.style.display = 'block';
 }
 
-
 const closeModal = () => {
   modal.style.display = 'none'
 }
-
 
 openBtn.addEventListener('click', openModal);
 close.addEventListener('click', closeModal);
@@ -61,3 +57,4 @@ prev.addEventListener('click', () => cycle(-1))
 const next = document.querySelector('.next')
 next.addEventListener('click', () => cycle(1))
 
+// followed class lessons for guidence//

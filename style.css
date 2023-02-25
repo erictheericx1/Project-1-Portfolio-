@@ -10,21 +10,15 @@ color: #fff;
 
 .navbar {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  /* background-color: #777777;
-  color: #fff;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  overflow: hidden; */
 }
 
 
 .navbar a:hover {
-  background-color: rgb(154, 255, 114);
+  background-color: rgb(143, 143, 143);
   color: #000000;
 }
 
-nav .icon {
+.navbar .icon {
   display: none;
 }
 
@@ -45,7 +39,9 @@ section:nth-of-type(1) {
 }
 
 h1 {
+  text-shadow: #677996;
   text-decoration: underline;
+  font-style: oblique;
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -65,8 +61,13 @@ button {
 
 }
 
-.construction{
+.construction {
   width: 25%;
+}
+
+.resume {
+  width: 50%;
+  padding: 5px
 }
 /* modal */
 #modal {
@@ -123,41 +124,36 @@ button {
 }
 
 .pet-images {
-  width: 25%;
-  padding: 10px;
-  border-radius: 10px;
-
+  width: 200px;
+  height: 200px;
 }
 
 .pet-images img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
   display: none;
 }
+
 .pet-images img:first-of-type{
   display: block;
 }
 
 .carousel-button {
   align-self: center;
-  border-radius: 75%;
-  background: #1f2525;
-  color: #000000;
-  padding: 8px;
+  border-radius: 10px;
+  background: #878787;
+  padding: 14px;
   text-align: center;
-  box-shadow: 1px 1px #272c2a;
 }
 
 .carousel-button:hover {
   cursor: pointer;
-  background: #fa8d8e;
-  box-shadow: 1px 1px #f2cd99;
-  color: white;
+  background: #5ea191;
+  color: rgb(0, 0, 0);
 }
 
+/* Icon Links */
 .fa-brands {
-  justify-content: center;
-  grid-row-end: auto;
   color: white;
   text-decoration: none;
 }
