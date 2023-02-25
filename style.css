@@ -9,26 +9,18 @@ color: #fff;
 }
 
 .navbar {
-  background-color: #777777;
-  color: #fff;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* background-color: #777777;
+  color: #fff;
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
-nav a {
-  float: left;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bolder;
-}
 
-nav a:hover {
-  background-color: rgb(188, 247, 232);
+.navbar a:hover {
+  background-color: rgb(154, 255, 114);
   color: #000000;
 }
 
@@ -148,12 +140,12 @@ button {
 
 .carousel-button {
   align-self: center;
-  background: #f2cd99;
+  border-radius: 75%;
+  background: #1f2525;
   color: #000000;
-  padding: 10px;
-  border-radius: 50%;
+  padding: 8px;
   text-align: center;
-  box-shadow: 1px 1px #fa8d8e;
+  box-shadow: 1px 1px #272c2a;
 }
 
 .carousel-button:hover {
@@ -170,139 +162,3 @@ button {
   text-decoration: none;
 }
 
-/* Styles for mobile devices */
-
-@media screen and (max-width: 600px) {
-  nav a:not(:first-child) {display: none;}
-  nav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  nav.responsive {position: relative;}
-  nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media (max-width: 767px) {
-  nav {
-    flex-direction: column;
-  }
-
-  nav a {
-    margin-bottom: 5px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  h4 {
-    font-size: 0.9rem;
-  }
-
-  section {
-    padding: 10px;
-  }
-
-
-
-  .pet-images {
-    display: flex;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-  }
-
-  .images {
-    flex: 0 0 auto;
-    width: 25%;
-    height: auto;
-    margin-right: 5px;
-    scroll-snap-align: start;
-  }
-
-  .carousel-botton {
-    display: none;
-  }
-}
-
-/* Styles for tablets and desks */
-
-@media (min-width: 768px) {
-  nav {
-    flex-direction: row;
-  }
-
-  nav a {
-    margin-bottom: 0;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 1.2rem;
-  }
-
-  section {
-    padding: 40px;
-  }
-
-  .pet-images {
-    display: flex;
-    justify-content: center;
-  }
-
-  .images {
-    flex: 0 0 auto;
-    width: 30%;
-    height: auto;
-    margin-right: 10px;
-    scroll-snap-align: none;
-  }
-
-  .carousel-botton {
-    display: block;
-    position: absolute;
-    width: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #333;
-    text-align: center;
-    font-size: 2rem;
-    line-height: 50px;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-  .carousel-botton.prev {
-    left: 10px;
-  }
-
-  .carousel-botton.next {
-    right: 10px;
-  }
-}

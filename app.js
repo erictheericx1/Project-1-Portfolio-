@@ -61,11 +61,3 @@ prev.addEventListener('click', () => cycle(-1))
 const next = document.querySelector('.next')
 next.addEventListener('click', () => cycle(1))
 
-// //hamburger menu//
-// function hamburger(){
-//   let menu = document.getElementsByTagName('nav')
-//   if (menu.tagName === 'nav') {
-//     menu.tagName += 'nav';
-//   }
-// }
-
