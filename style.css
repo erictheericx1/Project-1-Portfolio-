@@ -9,11 +9,10 @@ color: #fff;
 }
 
 .navbar {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-.navbar a:hover {
+.nav-link:hover {
   background-color: rgb(143, 143, 143);
   color: #000000;
 }
@@ -31,7 +30,6 @@ section {
   color: white;
   text-align: center;
   display: none;
-
 }
 
 section:nth-of-type(1) {
@@ -53,12 +51,10 @@ h2 {
 
 h4 {
   font-size: 1rem;
-
 }
 
 button {
   align-items: center;
-
 }
 
 .construction {
@@ -69,6 +65,7 @@ button {
   width: 50%;
   padding: 5px
 }
+
 /* modal */
 #modal {
   align-items: center;
@@ -97,6 +94,7 @@ button {
 	font-family: 'Georgia';
   backdrop-filter: blur(2px);
 }
+
 #openModal {
   background-color: rgb(53, 53, 53);
   color: rgb(183, 183, 183);
@@ -106,8 +104,6 @@ button {
 #close {
   color: rgb(31, 178, 168);
   font-style: italic;
-  text-decoration: none;
-
 }
 
 /* carousel */
@@ -154,7 +150,8 @@ button {
 
 /* Icon Links */
 .fa-brands {
-  color: white;
+  color:rgb(180, 178, 178);
   text-decoration: none;
 }
 
+/* help found on stackoverflow.com and css-tricks.com */
