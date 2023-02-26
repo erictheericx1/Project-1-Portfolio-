@@ -1,3 +1,4 @@
+/* main elements */
 body {
 background: url(https://c4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-preview.jpg) no-repeat center center fixed;
 background-size: cover;
@@ -7,7 +8,6 @@ margin: 0;
 padding: 0;
 color: #fff;
 }
-
 
 .navbar {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -153,14 +153,14 @@ button {
   color: rgb(0, 0, 0);
 }
 
+
 /* Icon Links */
 .fa-brands {
   color:rgb(180, 178, 178);
-  text-decoration: none;
 }
 
-/* Transition */
 
+/* Transition */
 @keyframes fade-in {
   from {
     background-color: black;

@@ -19,7 +19,6 @@ const openBtn = document.getElementById('openModal');
 const modal = document.getElementById('modal')
 const close = document.getElementById('close')
 
-
 const openModal = () => {
   modal.style.display = 'block';
 }
@@ -57,4 +56,4 @@ prev.addEventListener('click', () => cycle(-1))
 const next = document.querySelector('.next')
 next.addEventListener('click', () => cycle(1))
 
-// followed class lessons,  for guidence//
+// ------------------ followed class lessons for guidence -------------------------//
