@@ -1,175 +1,75 @@
-/* main elements */
+/* -----------------------  got help and tips from stackoverflow, w3schools, CSS-Tricks and Google -----------------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-background: url(https://c4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-preview.jpg) no-repeat center center fixed;
-background-size: cover;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 16px;
-margin: 0;
-padding: 0;
-color: #fff;
+  font-family: 'Rokkitt', serif !important;
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/568/232/7/texture-simple-dark-simple-background-wallpaper-e2c182d05d16be2b0ad87295d088b9c2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  box-sizing: border-box;
 }
 
-.navbar {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.website {
-  animation: fade-in 2s linear both;
-}
-
-.nav-link:hover {
-  background-color: rgb(143, 143, 143);
-  color: #000000;
-}
-
-.navbar .icon {
-  display: none;
-}
-
-.my_picture {
-border-radius: 50%;
+nav {
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.247);
 }
 
 section {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
-  text-align: center;
-  display: none;
+  box-sizing: border-box;
+  min-height: 90vh;
+  margin: 5vh 0;
+  padding: 0 5vw;
 }
 
-section:nth-of-type(1) {
-  display: block;
-}
-
-h1 {
-  text-shadow: #677996;
-  text-decoration: underline;
-  font-style: oblique;
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-}
-
-h4 {
-  font-size: 1rem;
-}
-
-button {
-  align-items: center;
-}
-
-.construction {
-  width: 25%;
-}
-
-.resume {
-  width: 50%;
-  padding: 5px
-}
-
-/* modal */
-#modal {
-  align-items: center;
-  background-color:rgba(0, 0, 0, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  overflow: auto;
-  display: none;
-}
-
-#modal-textbox {
-	border: #677996;
-  background-color: rgb(77, 76, 76, 0.6);
-  color: rgba(255, 255, 255, 0.824);
-	height: 200px;
-	width: 300px;
-	border-radius: 6px;
-	margin: 150px auto;
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	padding: 2%;
-	line-height: 120%;
-	font-family: 'Georgia';
-  backdrop-filter: blur(2px);
-}
-
-#openModal {
-  background-color: rgb(53, 53, 53);
-  color: rgb(183, 183, 183);
-  border-radius: 20px;
-}
-
-#close {
-  color: rgb(31, 178, 168);
+.my_name {
+  font-family: 'Satisfy', cursive !important;
   font-style: italic;
 }
 
-/* carousel */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  text-decoration: none !important;
 }
 
-.carousel-container {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.pet-images {
-  width: 200px;
-  height: 200px;
-}
-
-.pet-images img {
+.proj_img {
   width: 100%;
-  border-radius: 20px;
-  display: none;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.pet-images img:first-of-type{
-  display: block;
-}
-
-.carousel-button {
-  align-self: center;
-  border-radius: 10px;
-  background: #878787;
-  padding: 14px;
-  text-align: center;
-}
-
-.carousel-button:hover {
+.proj_img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  filter: grayscale(100%) blur(2px);
   cursor: pointer;
-  background: #5ea191;
-  color: rgb(0, 0, 0);
 }
 
+.resume-img {
 
-/* Icon Links */
-.fa-brands {
-  color:rgb(180, 178, 178);
+  border-radius: 1%;
 }
 
-
-/* Transition */
-@keyframes fade-in {
-  from {
-    background-color: black;
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+*::-webkit-scrollbar {
+  background-color: #807e7ed7;
+  width: 10px;
 }
 
-/* -----------------------  got help and tips from stackoverflow, w3schools, CSS-Tricks and Google ----------------------- */
+/* Style scrollbar thumb */
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
