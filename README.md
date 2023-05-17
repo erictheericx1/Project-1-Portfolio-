@@ -1,6 +1,6 @@
 # Eric Lopez's Portfolio (Project 1)
 
-![home page](assets/portfolio_screenshot.jpg)
+![home page](assets/Screenshot.jpg)
 
 Installation Instructions
 -------------
